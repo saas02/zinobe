@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/06/2021, 2:13:42 p. m.
+    Author     : death
+*/
+
+.rTable {
+    display: block;
+    width: 100%; 
+} 
+.rTableHeading, 
+.rTableBody, 
+.rTableFoot, 
+.rTableRow{   	
+    clear: both; 
+} 
+.rTableHead, 
+.rTableFoot{   	
+    background-color: #DDD;   	
+    font-weight: bold; 
+} 
+.rTableCell, 
+.rTableHead {   	
+    border: 1px solid #999999;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    padding: 10px 20px 5px 20px;
+    width: 15%;
+} 
+.rTable:after {   	
+    visibility: hidden;   	
+    display: block;   	
+    font-size: 0;   	
+    content: " ";   	
+    clear: both;   	
+    height: 0; 
+}
